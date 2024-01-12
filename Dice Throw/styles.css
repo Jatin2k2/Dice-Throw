@@ -1,17 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:boder-box;
+}
+
 .container {
-  width: 70%;
-  margin: auto;
+  width: 95vw;
+  height: 95vh;
   text-align: center;
 }
 
+.inside {
+
+  margin-top:100px;
+  padding:20px;
+}
+
 .dice {
-  text-align: center;
+ 
   display: inline-block;
 
 }
 
 body {
-  background-color: #393E46;
+  background-color: black;
 }
 
 h1 {
@@ -30,12 +42,29 @@ p {
 
 img {
   width: 80%;
+  border:5px solid beige;
+  border-radius: 40px;
 }
 
 footer {
-  margin-top: 5%;
+  margin-top:25px;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+#clickme {
+ display:block;
+ padding:10px;
+ font-size:2rem;
+ border-radius:10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: #4ECCA3;
+ position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%); 
+  
+  
 }

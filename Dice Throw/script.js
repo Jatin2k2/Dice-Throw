@@ -1,4 +1,5 @@
-var randomNumber1=Math.floor(Math.random() * 6)+1;
+document.getElementById("clickme").addEventListener("click",function(){
+  var randomNumber1=Math.floor(Math.random() * 6)+1;
 var randomDiceImage="images/dice" + randomNumber1 + ".png";
 document.querySelectorAll("img")[0].setAttribute("src",randomDiceImage);
 
@@ -13,3 +14,4 @@ if (randomNumber1>randomNumber2){
 }else {
   document.querySelector("h1").textContent="Draw";
 }
+})
